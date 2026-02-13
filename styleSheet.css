@@ -291,3 +291,41 @@ main{
     line-height: 1.6;
 }
 
+/* Styles for Contact Page */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+.contact-form label {
+    font-size: 16px;
+    color: var(--text1);
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid var(--text3);
+    border-radius: 5px;
+    font-size: 14px;
+}
+.contact-form button {
+    align-self: flex-start;
+}
+
+/* Styles for Gallery Page */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.gallery-img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
