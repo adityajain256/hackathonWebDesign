@@ -329,3 +329,76 @@ main{
 
 
 
+
+.section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.row1 .row2 {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    gap: 10px
+}
+
+.hover-box p {
+    display: flex;
+    color: black
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.hover-box {
+    margin: 2rem;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 300px;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+
+.hover-box p {
+    font-size: 25px;
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.hover{
+    padding: 10px 20px;
+    background-color: rgb(255, 165, 0);
+    color: var(--text2);
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hover-box:hover{
+    box-shadow: rgba(8, 8, 8, 0.517) 0px 0px 20px 0px;
+    background-color: slategray;
+}
+
+.hover-box:hover p{
+    color: slategray;
+}
+
+.hover-box:hover .hover{
+    background-color: bisque;
+}
